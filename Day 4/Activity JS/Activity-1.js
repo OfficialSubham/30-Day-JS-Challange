@@ -1,14 +1,13 @@
-const addedNumbers = 5 + 13;
-console.log(addedNumbers);
+//Task 1
 
-const substractedNumbers = 13 - 5;
-console.log(substractedNumbers);
+for (let i = 1; i<=10; i++) {
+    console.log(i);
+    
+}
 
-const multipliedNumbers = 13 * 5;
-console.log(multipliedNumbers);
+//Task 2
 
-const dividedNumbers = 39 / 3;
-console.log(dividedNumbers);
-
-const remainderNumber = 48 % 7;
-console.log(remainderNumber);
+for (let i = 1; i <= 10; i++) {
+    const multiply = 5 * i;
+    console.log(`5 x ${i} = ${multiply}`);
+}

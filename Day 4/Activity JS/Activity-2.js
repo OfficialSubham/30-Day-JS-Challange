@@ -1,7 +1,18 @@
-let addVarNumber = 13;
-addVarNumber += 15;
-console.log(addVarNumber);
+//Task 3
 
-let subVarNumber = 121;
-subVarNumber -= 45;
-console.log(subVarNumber);
+let num = 0;
+
+for(let i = 1; i <= 10; i++) {
+    num += i;
+    console.log(num);
+    
+}
+
+//Task 4
+
+let i = 10;
+
+while (i >= 1) {
+    console.log(i);
+    i--;
+}

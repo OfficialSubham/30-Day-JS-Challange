@@ -1,11 +1,12 @@
-if ("hello" === "hello" && "subscribe" === "subscribe") {
-    console.log("Compared Both with '&&' operator");
-}
+//Task 7
 
-if ("1" === 1 || "1" === "1") {
-    console.log("One of them is satisfying. Using '||' operator");
-}
-
-if ("1" !== 1) {
-    console.log("Both Are Not Same. Using '!' operator");
+for (let i = 1; i <= 5 ; i++) {
+    let star = 1;
+    let space = '';
+    let stars = "";
+    for(star; star <= i; star++) {
+        stars += " *"
+    }
+    console.log(stars)
+    console.log("\n");
 }

@@ -1,8 +1,19 @@
-console.log(12 > 3);
-console.log(3 < 12);
+//Task 5
 
-console.log(12 >= 12);
-console.log(14 <= 14);
+let i = 1
+do {
+console.log(i);
+i++;
+}while(i <= 5);
 
-console.log("sub" == "sub")
-console.log("hello" === "hello");
+//Task 6
+
+let index = 9;
+let number = 1;
+do {
+    let num = 1 * index;
+    number *= num;
+    index--;
+}while(index > 1)
+
+console.log(number);
