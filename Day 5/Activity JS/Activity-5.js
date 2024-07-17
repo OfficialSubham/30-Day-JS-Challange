@@ -1,21 +1,43 @@
-//Task 8
-
-for (let i = 1; i <= 10; i++) {
-    if(i === 5) {
-        continue;
+//Task 9
+function fun1 (num) {
+    let value = '';
+    for(let i = 0; i <= num; i++) {
+        value += i;
     }
-    else {
-        console.log(i);
-    };
+    console.log(value)
+    console.log("\n");
 };
 
-//Task 9
+function fun2 (fun1, number) {
+    for (let i = 0; i <= number; i++) {
+        fun1(i);
+    };
+};
+ fun2(fun1, 5);
 
-for (let i = 1; i <= 10; i++) {
-    if(i === 7) {
-        break;
+//Task 10
+
+function firstFun (number) {
+    return number * number;
+};
+
+function secondFun (num) {
+
+    for (let i = 1; i <= num; i++) {
+        let stars = '';
+        for (let index = 1; index <= i; index++) {
+            stars += '*'
+        }
+        console.log(stars);
+        console.log("\n");
     }
-    else {
-        console.log(i);
-    }
-}
+  
+};
+
+function mainFun(firstFun, secondFun, numberr) {
+    num = firstFun(numberr);
+    secondFun(num);
+};
+
+mainFun(firstFun, secondFun, 5)
+

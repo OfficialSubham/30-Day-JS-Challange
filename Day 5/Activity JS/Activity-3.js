@@ -1,19 +1,26 @@
 //Task 5
 
-let i = 1
-do {
-console.log(i);
-i++;
-}while(i <= 5);
+const sumOfNum = (num1, num2) => {
+    const result = num1 + num2;
+    return result;
+}
+
+console.log(sumOfNum(12, 14));
+console.log(sumOfNum(22, 90));
 
 //Task 6
 
-let index = 9;
-let number = 1;
-do {
-    let num = 1 * index;
-    number *= num;
-    index--;
-}while(index > 1)
+const stringChecker = (string, character) => {
+    const str = string;
+    let booleanValue = false;
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] == character) {
+            booleanValue = true;
+            break;
+        }
+    }
+    return booleanValue;
+};
 
-console.log(number);
+console.log(stringChecker("Hello World", "T"));
+console.log(stringChecker("Hello World", "W"));
