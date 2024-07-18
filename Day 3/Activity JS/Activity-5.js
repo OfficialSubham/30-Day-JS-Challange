@@ -1,10 +1,10 @@
 //Task 7
 
 function leapYearFinder(year) {
-    if (year % 100 === 0 && year % 400 === 0) {
+    if (year % 400 === 0) {
         console.log("Year is a leap year");
     }
-    else if (year % 4 === 0 ) {
+    else if (year % 4 === 0 && year % 100 != 0) {
         console.log("Year is a leap year");
     }
     else {
