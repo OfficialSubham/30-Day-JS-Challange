@@ -1,0 +1,22 @@
+{
+  "name": "activity-js",
+  "version": "1.0.0",
+  "main": "(Activity-4.js)",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/OfficialSubham/30-Day-JS-Challenge)"
+  },
+  "author": "subham",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "webpack-cdn-plugin": "^3.3.1"
+  }
+}
